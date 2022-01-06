@@ -10,6 +10,6 @@
         "pages" => $_GET['pages'],
         "isbn" => $_GET['isbn']);
       file_put_contents('books.json', json_encode($books));
-      echo 'Book is Inserted Successfully. <a href="/WebBook/">Home</a>.';
+      echo 'Book is Inserted Successfully. <a href="index.php">Home</a>.';
   }
 ?>
